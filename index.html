@@ -8,50 +8,94 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/stylesheet.css">
-    <title>Hello, world!</title>
+    <script src="https://kit.fontawesome.com/bee1df4fdc.js" crossorigin="anonymous"></script>
+    <title>Event Landing Page</title>
   </head>
   <body>
+    <!-- navbar -->
     <div class="container-fluid d-flex flex-row align-items-end">
       <div class="me-auto h6 pt-4 p-2">Moqups Logo</div>
       <div class="h6 p-2">Speakers</div>
       <div class="h6 p-2">Tickets</div>
       <div class="h6 p-2">Venue</div>
     </div>
+
+    <!-- jumbotron -->
     <div class="container-fluid d-flex flex-column justify-content-center align-items-center gap-3 light-grey tall">
       <div class="col-6 h1 text-center">Clear Statement about Your Event</div>
       <div class="col-6 h6 text-center">Secondary header providing additional information</div>
-      <button type="button" class="btn btn-dark py-2 px-4">GET THE TICKET</button>
+      <button type="button" class="btn btn-dark py-2 px-4"><b>GET THE TICKET</b></button>
     </div> <br><br>
+
+    <!-- Speakers -->
     <div class="container d-flex flex-column justify-content-center align-items-center gap-4">
       <div class="h2">The Speakers</div>
       <div class="col-6 text-center h6">Write a few lines about the event speakers to highlight their expertise in the field.</div>
-      <div class="container d-flex flex-row justify-content-evenly">
-        <div class="container d-flex flex-column justify-content-evenly">
-          <div></div>
+      <div class="container d-flex flex-row">
+        <!-- Ruby -->
+        <div class="container d-flex flex-column justify-content-evenly p-4">
+          <div class="short light-grey mb-3"></div>
           <div class="h5">Ruby Jennings</div>
           <p class="text-grey"><small>Product Manager at Moqups. Runner, parent and coffee lover.</small></p>
           <p class="text-grey"><small>@username</small></p>
         </div>
-        <div class="container d-flex flex-column justify-content-evenly">
-          <div></div>
+        <!-- Leon -->
+        <div class="container d-flex flex-column justify-content-evenly p-4">
+          <div class="short light-grey mb-3"></div>
           <div class="h5">Leon Hanson</div>
           <p class="text-grey"><small>Sales Manager at Moqups. Runner, parent and coffee lover.</small></p>
           <p class="text-grey"><small>@username</small></p>
         </div>
-        <div class="container d-flex flex-column justify-content-evenly">
-          <div></div>
+        <!-- Meghan -->
+        <div class="container d-flex flex-column justify-content-evenly p-4">
+          <div class="short light-grey mb-3"></div>
           <div class="h5">Meghan Stone</div>
           <p class="text-grey"><small>Marketing Specialist at Moqups. Runner, parent and coffee lover.</small></p>
           <p class="text-grey"><small>@username</small></p>
         </div>
-        <div class="container d-flex flex-column justify-content-evenly">
-          <div></div>
+        <!-- Willie -->
+        <div class="container d-flex flex-column justify-content-evenly p-4">
+          <div class="short light-grey mb-3"></div>
           <div class="h5">Willie Perkins</div>
           <p class="text-grey"><small>UX Engineer at Moqups. Runner, parent and coffee lover.</small></p>
           <p class="text-grey"><small>@username</small></p>
         </div>
       </div>
     </div>
+    <br><hr><br>
+
+    <!-- Tickets -->
+    <div class="container d-flex flex-column justify-content-center align-items-center gap-3">
+      <div class="h2">Get Your Tickets Today!</div>
+      <p><small>Each ticket includes: <b>20</b> speakers, <b>1000</b> participants, <b>15</b> sessions, <b>5</b> keynotes.</small></p>
+      <button type="button" class="btn btn-dark py-2 px-4"><b>BUY TICKET $149</b></button>
+    </div>
+    <br><hr><br>
+
+    <!-- Venue -->
+    <div class="container">
+      <div class="row tall">
+        <div class="col-6">
+          <div class="h2 pb-4 px-3">The Venue</div>
+          <p class="col-7 p-3">Our event will be held at the <b>Main Office headquaters at Provost & East Building 145 City Road, London.</b></p>
+          <div class=" col-12 px-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.225592089191!2d-0.09051874848182492!3d51.5274220169599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca677677bd1%3A0xfe6025085816a202!2s145%20City%20Rd%2C%20London%20EC1V%201AW%2C%20UK!5e0!3m2!1sen!2sus!4v1654235059846!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="tall light-grey col-6 p-2"></div>
+      </div>
+    </div>
+    <br><hr>
+
+    <!-- Footer -->
+    <div class="container d-flex justify-content-start">
+      <div class="p-2"><i class="fa-brands fa-twitter fa-lg"></i></div>
+      <div class="p-2"><i class="fa-brands fa-instagram fa-lg"></i></div>
+      <div class="p-2"><i class="fa-brands fa-facebook-square fa-lg"></i></div>
+      <div class="p-2 ms-auto"><small>&copy; 2019 Moqups</small><div>
+    </div>
+    <br>
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
